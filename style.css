@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(249, 129, 189);
+    width: 100%;
+    height:40px;
+}
+.heading {
+    
+    animation: myAnimate 3s linear 0s infinite normal;
+    font-weight: 550;
+    position: relative;
+    left:100px;
+}
+@keyframes myAnimate {
+    from {bottom:-15px;}
+    to {bottom:30px;}
+}
+.heading:hover {
+    color: rgb(249, 34, 70);
+}
+.nav-tabs {
+    display: flex;
+    position: absolute;
+    right:10px;
+    top: 10px;
+    margin-left: 40px;
+}
+.nav-tabs a{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-tabs a:hover{
+    color: rgb(249, 34, 70);
+}
+/* panel */
+.panel {
+    height: 70px;
+    width: 945px;
+    display: flex;
+}
+.panel-logo {
+    position: absolute;
+    top:60px;
+
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    top:65px;
+}
+.boxes p{
+    display: inline;
+    margin-right: 15px;
+    font-weight: 550;
+    
+}
+.boxes p:hover {
+    transition: rgb(249, 34, 70) 0.3 ease;
+}
+
+.input {
+    position: absolute;
+    right: 100px;
+    top: 65px;
+    margin-left:30px ;
+}
+.signin {
+    width: 50px;
+    height: 20px;
+    border: 2px solid black ;
+    border-radius: 2px;
+    background-color: rgb(247, 11, 129);
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    margin-right: 100x;
+}
+.bag {
+    position: absolute;
+    top:65px;
+    right: 15px;
+}
+.panel2 {
+    display: flex;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.panel2 p {
+    display: inline;
+    margin-right: 35px;
+}
+.panel2 p:hover {
+    color: rgb(249, 34, 70);
+}
+.sale {
+    position: absolute;
+    right: 220px;
+    top:115px
+}
+
+/* hero section */
+.hero-section {
+    background-image: url("hero.webp"); 
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.payment {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* payment */
+.payment {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100px;
+    /* border:2px black solid; */
+    width: 30%;
+
+    /* display: flex; */
+}
+
+.box-img {
+    height: 70px;
+    background-size: cover;
+    margin-top: 10px;
+}
+/* shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.shopping {
+    height:200px;
+    /* background-size: cover; */
+    width: 14%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.shopping a{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    display: flex;
+}
+.tab {
+    height: 180px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boxnew{
+    height: 115px;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10px;
+}
+.box-image {
+    height: 115px;
+    background-size: cover;
+    margin-top: 10px;
+}
+.bestsellers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.newbee {
+    height: 350px;
+    width: 18%;
+
+}
+.newbee a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best {
+    height:350px ;
+    background-size: cover;
+    /* margin: 10px; */
+    width: 100%;
+    box-shadow: 0px 0px 3px;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+.big {
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    /* margin: 30px; */
+    margin-top: 70px;
+}
+/* .grey {
+    height: 90px;
+    background-color: grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+.panel-logos {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* position: relative;
+    bottom:0px;
+    right: 0px; */
+}
+.footer {
+    height: 90px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.conditions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
